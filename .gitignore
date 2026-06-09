@@ -1,0 +1,10 @@
+/bitrix/cache/
+/bitrix/backup/
+/bitrix/managed_cache/
+/bitrix/stack_cache/
+/upload/
+.DS_Store
+.env
+*.log
+/bitrix/.settings.php
+/bitrix/php_interface/dbconn.php
