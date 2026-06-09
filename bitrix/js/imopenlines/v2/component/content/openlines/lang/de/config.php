@@ -1,0 +1,19 @@
+<?php
+$MESS["IMOL_CONTENT_BUTTON_TRANSFER"] = "Weiterleiten";
+$MESS["IMOL_CONTENT_CHAT_ACCESS_ERROR_MSGVER_1"] = "Sie sind kein Teilnehmer dieses Chats, oder der Chat wurde gelöscht.";
+$MESS["IMOL_CONTENT_CHAT_CONTEXT_MESSAGE_NOT_FOUND"] = "Nachricht wurde nicht gefunden";
+$MESS["IMOL_CONTENT_HEADER_BUTTON_FINISH"] = "Konversation schließen";
+$MESS["IMOL_CONTENT_HEADER_BUTTON_INTERCEPT"] = "Konversation aufnehmen";
+$MESS["IMOL_CONTENT_HEADER_BUTTON_PIN"] = "Mir zuweisen";
+$MESS["IMOL_CONTENT_HEADER_BUTTON_SPAM"] = "Als Spam markieren / Schließen erzwingen";
+$MESS["IMOL_CONTENT_HEADER_BUTTON_UNPIN"] = "Zuweisung von mir aufheben";
+$MESS["IMOL_CONTENT_START_MESSAGE"] = "Einen Kontakt aus der Liste auswählen, um Konversation zu starten.";
+$MESS["IMOL_CONTENT_TEXTAREA_HIDDEN_MODE_POPUP_DESCRIPTION"] = "Wird dieser Modus aktiviert, werden alle geposteten Nachrichten nur für Sie sowie andere Mitarbeiter sichtbar. Der Kunde wird Ihre Nachrichten nicht sehen können.";
+$MESS["IMOL_CONTENT_TEXTAREA_HIDDEN_MODE_POPUP_TITLE"] = "\"Nur Mitarbeiter\" Modus";
+$MESS["IMOL_CONTENT_TEXTAREA_JOIN_PANEL_ANSWER"] = "Antworten";
+$MESS["IMOL_CONTENT_TEXTAREA_JOIN_PANEL_CLOSE"] = "Schließen";
+$MESS["IMOL_CONTENT_TEXTAREA_JOIN_PANEL_JOIN_BUTTON"] = "Beitreten";
+$MESS["IMOL_CONTENT_TEXTAREA_JOIN_PANEL_SKIP"] = "Überspringen";
+$MESS["IMOL_CONTENT_TEXTAREA_JOIN_PANEL_START"] = "Starten";
+$MESS["IMOL_DIALOG_CHAT_MENU_MULTI_DIALOG"] = "Multichat erstellen";
+$MESS["IMOL_ENTITY_SELECTOR_CHAT_TRANSFER_CANCEL_BUTTON"] = "Abbrechen";

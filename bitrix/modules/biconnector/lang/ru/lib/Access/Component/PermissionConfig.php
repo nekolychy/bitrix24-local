@@ -1,0 +1,6 @@
+<?php
+
+$MESS['BICONNECTOR_CONFIG_PERMISSION_SECTION_RIGHTS_MAIN'] = 'BI Конструктор';
+$MESS['BICONNECTOR_CONFIG_PERMISSION_SECTION_RIGHTS_GROUP'] = 'Группы отчётов';
+$MESS['HINT_BICONNECTOR_CONFIG_PERMISSION_SECTION_RIGHTS_GROUP'] = 'При добавлении в группу отчёты появятся в верхнем меню соответствующего раздела Битрикс24';
+$MESS['BICONNECTOR_CONFIG_PERMISSION_SECTION_BUTTON_ADD_GROUP'] = 'Создать';

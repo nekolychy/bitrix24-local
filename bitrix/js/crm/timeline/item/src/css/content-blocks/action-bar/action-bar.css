@@ -1,0 +1,18 @@
+.crm-timeline__action-bar-container {
+	display: flex;
+	align-items: center;
+	gap: var(--ui-space-inline-xs);
+}
+
+.crm-timeline__action-bar-title {
+	font-size: var(--ui-font-size-sm);
+	color: var(--ui-color-palette-gray-70);
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	background-clip: text;
+}
+
+.crm-timeline__action-bar-title.--hidden {
+	display: none;
+}

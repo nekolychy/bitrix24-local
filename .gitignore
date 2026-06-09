@@ -1,0 +1,32 @@
+# Кеши и временные файлы
+/bitrix/cache/
+/bitrix/backup/
+/bitrix/managed_cache/
+/bitrix/stack_cache/
+/bitrix/html_pages/
+/bitrix/tmp/
+/bitrix/updates/
+
+# Загрузки
+/upload/
+/bitrix/images/
+
+# Конфиги с паролями
+/bitrix/.settings.php
+/bitrix/php_interface/dbconn.php
+
+# Системные файлы
+.DS_Store
+.env
+*.log
+*.tmp
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Логи
+*.log
+error_log
+access_log
