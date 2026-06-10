@@ -1,27 +1,28 @@
 # Название вашего workflow
-name: Auto Deploy to Timeweb
+name: Deploy to Hosting
 
 # Условие запуска: при пуше в ветку 'main' или 'master'
 on:
   push:
-    branches: [ main, master ]
+    branches:
+    - master
 
 # Задачи, которые будут выполняться
 jobs:
   deploy:
-    name: Deploy via FTP
     runs-on: ubuntu-latest
+
     steps:
       # 1. Забираем последнюю версию кода из репозитория
-      - name: Checkout code
-        uses: actions/checkout@v4
+      - name: Checkout Repository
+        uses: actions/checkout@v2
 
       # 2. Отправляем файлы на FTP-сервер
-      - name: FTP Deploy
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+      - name: Deploy to Hosting
+        uses: SamKirkland/FTP-Deploy-Action@v4.0.0
         with:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           # ВАЖНО: Убедитесь, что путь указан верно (см. шаг 1)
-          server-dir: ./public_html/
+          server-dir: vh434.timeweb.ru/public_html/
