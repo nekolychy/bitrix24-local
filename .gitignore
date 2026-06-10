@@ -3,8 +3,8 @@
 /.department.menu_ext.php
 /.DS_Store
 /.git
-/.github
-/.gitignore
+#/.github
+#/.gitignore
 /.htaccess
 /.section.php
 /.top_links.menu.php
