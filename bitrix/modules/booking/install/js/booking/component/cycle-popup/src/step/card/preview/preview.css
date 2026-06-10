@@ -1,8 +1,0 @@
-.booking-cycle-popup-card-preview {
-	z-index: -1;
-	position: relative;
-	min-width: 169px;
-	background: var(--ui-color-palette-blue-15);
-	pointer-events: none;
-	user-select: none;
-}

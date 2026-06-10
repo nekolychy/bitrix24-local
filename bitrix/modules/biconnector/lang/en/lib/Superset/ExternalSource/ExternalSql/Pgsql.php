@@ -1,3 +1,0 @@
-<?php
-$MESS["BICONNECTOR_EXTERNAL_SOURCE_POSTGRESQL_DESCRIPTION"] = "Connect PostgreSQL external database to analyze data in BI Builder.";
-$MESS["BICONNECTOR_EXTERNAL_SOURCE_POSTGRESQL_TITLE"] = "PostgreSQL";

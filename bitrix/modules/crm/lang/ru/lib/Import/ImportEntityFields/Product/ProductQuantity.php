@@ -1,3 +1,0 @@
-<?php
-
-$MESS['CRM_ITEM_IMPORT_FIELD_PRODUCT_QUANTITY'] = 'Количество';

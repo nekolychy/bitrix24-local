@@ -1,3 +1,0 @@
-<?php
-$MESS["BI_ACCESS_RIGHTS_BUTTON_CANCEL"] = "Cancel";
-$MESS["BI_GROUP_NEW_TITLE"] = "New group";

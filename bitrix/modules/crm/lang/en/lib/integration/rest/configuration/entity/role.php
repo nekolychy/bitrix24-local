@@ -1,2 +1,0 @@
-<?php
-$MESS["CRM_ERROR_CONFIGURATION_CLEAR_EXCEPTION_ROLE_DEL"] = "Could not delete role ID ##ID#.";

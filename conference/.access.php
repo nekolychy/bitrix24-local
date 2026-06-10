@@ -1,3 +1,0 @@
-<?
-$PERM["videoconf.php"]["*"]="R";
-?>

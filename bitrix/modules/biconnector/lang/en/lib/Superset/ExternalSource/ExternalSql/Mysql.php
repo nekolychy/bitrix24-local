@@ -1,3 +1,0 @@
-<?php
-$MESS["BICONNECTOR_EXTERNAL_SOURCE_MYSQL_DESCRIPTION"] = "Connect MySQL external database to analyze data in BI Builder.";
-$MESS["BICONNECTOR_EXTERNAL_SOURCE_MYSQL_TITLE"] = "MySQL";
