@@ -1,0 +1,28 @@
+# Название вашего workflow
+name: Deploy to Hosting
+
+# Условие запуска: при пуше в ветку 'main' или 'master'
+on:
+  push:
+    branches:
+    - master
+
+# Задачи, которые будут выполняться
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Забираем последнюю версию кода из репозитория
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      # 2. Отправляем файлы на FTP-сервер
+      - name: Deploy to Hosting
+        uses: SamKirkland/FTP-Deploy-Action@v4.0.0
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          # ВАЖНО: Убедитесь, что путь указан верно (см. шаг 1)
+          server-dir: vh434.timeweb.ru/public_html/
